@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+
+.uma-div{
+    background-color: red;
+    position: relative;
+    top:20px;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+   
+}
+
+.outra-div{
+    background-color: blue;
+   
+    
+    bottom: 150px;
+    width: 200px;
+    height: 200px;
+
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translateY(-100px);
+  transform: translateX(100px);
+  
+}

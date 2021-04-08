@@ -1,0 +1,37 @@
+.banner{
+    background-color: #da354e;
+    color: white;
+    margin-top: 75px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#principal-img{
+    border-radius: 50%;
+    border: 5px #f5e12b solid;
+    height: 150px;
+    width: 150px;
+}
+img{
+    border-radius: 50%;
+    border: 5px #f5e12b solid;
+    height: 70px;
+    width: 70px;
+
+}
+ul{
+    list-style-type: none;
+}
+
+#inusha{
+    color:#da354e;
+    font-size: 100px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.container{
+    text-align: center;
+}
