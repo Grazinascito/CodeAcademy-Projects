@@ -244,5 +244,90 @@
         
     }
 
-   
+    /* last section */
+
+    .last-section{
+        width: 90%;
+        margin: auto;
+        border: solid red 2px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #eee6e6;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
     
+
+    .last-section video{
+        max-width: 600px;
+        height: 350px;
+        margin-top: 20px;
+       
+    }
+    .video-section{
+        text-align: left;
+        max-width: 650px;
+        border: solid 2px red;
+        padding: 20px;
+        
+    }
+
+    .video-section h1{
+        text-align: center;
+       
+    }
+
+    .div-last-section{
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .last-mural{
+        display: flex;
+        border: solid 2px red;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+    .last-mural img{
+        max-width: 200px;
+        border: red solid 2px;
+        margin: 10px;
+        
+    }
+    
+
+    .last-mural-item{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    footer{
+        font-weight: normal;
+        max-width: 90%;
+        margin: auto;
+       
+    }
+
+    .footer-section{
+        display: flex;
+        justify-content: space-between;
+      
+    }
+
+    .footer-links{
+        display: flex;
+       
+       
+    }
+
+    .footer-links a{
+        text-decoration: none;
+        color: #3f2607;
+    }
+   
