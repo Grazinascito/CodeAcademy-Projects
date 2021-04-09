@@ -8,7 +8,10 @@
     
     body{
         background-color:#e9b3b375;
-        text-align: center;
+        font-family:  Helvetica, sans-serif;
+        font-weight: bold;
+        color: #3f2607;
+       
     }
 
     nav{
@@ -79,6 +82,9 @@
         border: solid red 2px;
         justify-content: space-between;
         align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 20px;
         
        
         
@@ -95,8 +101,7 @@
        line-height: 1.6;
        color: #3f2607;
        font-size: 20px;
-       font-family:  Helvetica, sans-serif;
-       font-weight: bold;
+      
        
     }
 
@@ -113,4 +118,131 @@
         outline:none;
         cursor: pointer;
     }
+
+
+    /* section */
+
+    .section-two{
+        
+        width: 90%;
+        margin: auto;
+        border: solid red 2px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #eee6e6;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+       
+      
+        
+    }
+
+    .section-two h1, p{
+        font-size: 1rem;
+       
+    }
+
+    .section-two h1{
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+        
+    }
+
+    .img-main-two img{
+        width: 500px;
+        height: 350px;
+        margin-top: 20px;
+        
+       
+    }
+
+    .img-main-two{
+        text-align: center;
+        margin-left: -60px;
+    }
+
+    /* mural things */
+   
+
+    .mural-item{
+       
+        font-size: 0.9rem;
+        font-weight: normal;
+        text-align: center;
+        margin: 20px;
+        padding: 10px;
+    
+        background-color: #ffffff;
+        border: solid 2px red;
+        display: flex;
+        align-items: center;
+        
+        
+      
+   
+        
+      
+    }
+
+    .mural-item img{
+       
+        max-width: 150px;
+        max-height: 150px;
+      
+    }
+
+    .img-main-two p > span{
+        white-space: pre;
+    }
+
+    /* learning section */
+
+    .learning-section{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        border: solid red 2px;
+        margin-bottom: 20px;
+        background-color: #eee6e6;
+        
+        
+    }
+
+    .learning-items img{
+        max-width: 250px;
+        max-height: 250px;
+    }
+    
+    .flex-learning{
+      
+        flex-wrap: wrap;
+        max-width: 90%;
+        border: solid red 2px;
+        text-align: center;
+        margin-top: 20px;
+        display: flex;
+        margin:0 auto;
+        flex-direction: row;
+        padding: 2rem;
+        
+      
+        
+    }
+
+    .learning-items{
+       text-align: center;
+       max-width: 260px;
+       min-height: 300px;
+       border: solid red 2px;
+       background-color:#ffffff;
+        margin: auto;
+        margin-bottom: 0.5rem;
+        font-weight: normal;
+        
+        
+    }
+
+   
     
